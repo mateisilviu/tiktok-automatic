@@ -24,7 +24,7 @@ You agree to use the App in compliance with all applicable laws, rules, and regu
 All content posted through the App remains the property of the user. We do not claim ownership of any content you post through our services.
 
 ## 6. Privacy
-Our [privacy policy](link-to-privacy-policy) governs the use of your personal information. By using the App, you consent to the collection and use of your data as described in our Privacy Policy.
+Our [privacy policy](https://github.com/mateisilviu/tiktok-automatic/blob/main/privacy-policy.md) governs the use of your personal information. By using the App, you consent to the collection and use of your data as described in our Privacy Policy.
 
 ## 7. Termination
 We reserve the right to terminate or suspend your account and access to the App for any reason, including a breach of these Terms of Service.
