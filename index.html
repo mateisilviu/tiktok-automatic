@@ -9,8 +9,8 @@
     <script>
         document.getElementById('tiktokLogin').addEventListener('click', function() {
             // Redirect to TikTok's OAuth endpoint
-            var clientId = 'YOUR_CLIENT_ID';
-            var redirectUri = 'YOUR_REDIRECT_URI';
+            var clientId = '7328421173499545605';
+            var redirectUri = 'https://tiktok-automatic.vercel.app/tiktok-callback';
 			const csrfState = Math.random().toString(36).substring(2);
             var state = csrfState; // Should be a random string to prevent CSRF
             var scope = 'user.info.basic'; // Adjust the scope as needed

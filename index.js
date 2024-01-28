@@ -9,7 +9,7 @@ app.get('/tiktok-callback', async (req, res) => {
     const state = req.query.state;
     const YOUR_CLIENT_ID = process.env.TIKTOK_CLIENT_ID;
     const YOUR_CLIENT_SECRET = process.env.TIKTOK_CLIENT_SECRET;
-    const YOUR_REDIRECT_URI = 'YOUR_REDIRECT_URI';
+    const YOUR_REDIRECT_URI = 'https://tiktok-automatic.vercel.app/';
 
     // Exchange the code for an access token
     try {
