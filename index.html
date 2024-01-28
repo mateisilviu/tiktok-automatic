@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login with TikTok</title>
+</head>
+<body>
+    <button id="tiktokLogin">Login with TikTok</button>
+
+    <script>
+        document.getElementById('tiktokLogin').addEventListener('click', function() {
+            // Redirect to TikTok's OAuth endpoint
+            var clientId = 'YOUR_CLIENT_ID';
+            var redirectUri = 'YOUR_REDIRECT_URI';
+			const csrfState = Math.random().toString(36).substring(2);
+            var state = csrfState; // Should be a random string to prevent CSRF
+            var scope = 'user.info.basic'; // Adjust the scope as needed
+
+            var tikTokAuthUrl = `https://open-api.tiktok.com/platform/oauth/connect/?client_key=${clientId}&response_type=code&redirect_uri=${encodeURIComponent(redirectUri)}&scope=${scope}&state=${state}`;
+            
+            window.location.href = tikTokAuthUrl;
+        });
+    </script>
+</body>
+</html>
